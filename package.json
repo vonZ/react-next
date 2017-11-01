@@ -1,18 +1,22 @@
 {
-  "name": "hello-next",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "next": "^4.1.4",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0"
-  }
+    "name": "hello-next",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "node server.js",
+        "build": "next build",
+        "start": "next start -p 8000"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.2",
+        "isomorphic-unfetch": "^2.0.0",
+        "next": "^4.1.4",
+        "react": "^16.0.0",
+        "react-dom": "^16.0.0"
+    }
 }
